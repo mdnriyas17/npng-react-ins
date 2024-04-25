@@ -158,12 +158,14 @@ const App = () => {
                     knowledge you need to succeed in the fast-paced world of
                     full-stack development.
                   </p>
+                  <Link to="/course">
                   <a
-                    href="course.html"
+                    
                     className="btn btn-light rounded-pill text-primary py-2 px-4"
                   >
                     Read More
                   </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -184,12 +186,14 @@ const App = () => {
                     Our curated courses in frontend development encompass HTML,
                     CSS, JavaScript, Bootstrap, and ReactJS.{" "}
                   </p>
-                  <a
-                    href="course.html"
+                 <Link to="/course">
+                 <a
+                    
                     className="btn btn-light rounded-pill text-primary py-2 px-4"
                   >
                     Read More
                   </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -211,12 +215,14 @@ const App = () => {
                     scalable backend systems that power dynamic web
                     applications.{" "}
                   </p>
-                  <a
-                    href="course.html"
-                    className="btn btn-light rounded-pill text-primary py-2 px-4"
-                  >
-                    Read More
-                  </a>
+                 <Link to="/course">
+                 <a
+                   
+                   className="btn btn-light rounded-pill text-primary py-2 px-4"
+                 >
+                   Read More
+                 </a>
+                 </Link>
                 </div>
               </div>
             </div>
@@ -238,12 +244,15 @@ const App = () => {
                     and JavaScript. Learn to craft stunning, user-friendly
                     websites and applications from scratch.{" "}
                   </p>
-                  <a
-                    href="course.html"
+                <Link to="/course">
+
+                <a
+                    
                     className="btn btn-light rounded-pill text-primary py-2 px-4"
                   >
                     Read More
                   </a>
+                </Link>
                 </div>
               </div>
             </div>
@@ -265,12 +274,14 @@ const App = () => {
                     interpersonal skills, public speaking, and professional
                     etiquette.
                   </p>
-                  <a
-                    href="course.html"
-                    className="btn btn-light rounded-pill text-primary py-2 px-4"
-                  >
-                    Read More
-                  </a>
+                 <Link to="/course">
+                 <a
+           
+           className="btn btn-light rounded-pill text-primary py-2 px-4"
+         >
+           Read More
+         </a>
+         </Link>
                 </div>
               </div>
             </div>
@@ -291,12 +302,14 @@ const App = () => {
                     topics, including critical thinking, problem-solving,
                     creativity, communication, teamwork, and time management
                   </p>
-                  <a
-                    href="course.html"
-                    className="btn btn-light rounded-pill text-primary py-2 px-4"
-                  >
-                    Read More
-                  </a>
+                 <Link to="/course">
+                 <a
+                   
+                   className="btn btn-light rounded-pill text-primary py-2 px-4"
+                 >
+                   Read More
+                 </a>
+                 </Link>
                 </div>
               </div>
             </div>

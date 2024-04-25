@@ -122,7 +122,7 @@ const About = () => {
                         </div>
                     </div>
                     <div className="my-4">
-                        <a href="course.html" className="btn btn-primary rounded-pill py-3 px-5">Read More</a>
+                        <Link to="/cource"><a className="btn btn-primary rounded-pill py-3 px-5">Read More</a></Link>
                     </div>
                 </div>
                 <div className="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
