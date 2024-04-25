@@ -26,37 +26,37 @@
     });
 
 
-    // Hero Header carousel
-    $(".header-carousel").owlCarousel({
-        animateOut: 'slideOutDown',
-        items: 1,
-        autoplay: true,
-        smartSpeed: 1000,
-        dots: false,
-        loop: true,
-        nav : true,
-        navText : [
-            '<i class="bi bi-arrow-left"></i>',
-            '<i class="bi bi-arrow-right"></i>'
-        ],
-    });
+    // // Hero Header carousel
+    // $(".header-carousel").owlCarousel({
+    //     animateOut: 'slideOutDown',
+    //     items: 1,
+    //     autoplay: true,
+    //     smartSpeed: 1000,
+    //     dots: false,
+    //     loop: true,
+    //     nav : true,
+    //     navText : [
+    //         '<i class="bi bi-arrow-left"></i>',
+    //         '<i class="bi bi-arrow-right"></i>'
+    //     ],
+    // });
 
 
-    // International carousel
-    $(".testimonial-carousel").owlCarousel({
-        autoplay: true,
-        items: 1,
-        smartSpeed: 1500,
-        dots: true,
-        dotsData: true,
-        loop: true,
-        margin: 25,
-        nav : true,
-        navText : [
-            '<i class="bi bi-arrow-left"></i>',
-            '<i class="bi bi-arrow-right"></i>'
-        ]
-    });
+    // // International carousel
+    // $(".testimonial-carousel").owlCarousel({
+    //     autoplay: true,
+    //     items: 1,
+    //     smartSpeed: 1500,
+    //     dots: true,
+    //     dotsData: true,
+    //     loop: true,
+    //     margin: 25,
+    //     nav : true,
+    //     navText : [
+    //         '<i class="bi bi-arrow-left"></i>',
+    //         '<i class="bi bi-arrow-right"></i>'
+    //     ]
+    // });
 
 
     // Modal Video
