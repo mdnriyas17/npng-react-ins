@@ -10,7 +10,7 @@ import imageweb from "../images/web.jpg";
 import imagecommunication from "../images/comminication.jpg";
 import imageaptitude from "../images/aptitute.jpg";
 import { Spin } from "antd";
-import {Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 const App = () => {
   return (
     <>
@@ -22,11 +22,11 @@ const App = () => {
 
       <div className="container-fluid p-0">
         <nav className="navbar zindex navbar-expand-lg navbar-light bg-transparent px-4 px-lg-5 py-3 py-lg-0 position-fixed top-0">
-        <Link to="/">
-           <a  className="navbar-brand p-0">
-                <img src={image1} alt="Logo"/>
+          <Link to="/">
+            <a className="navbar-brand p-0">
+              <img src={image1} alt="Logo" />
             </a>
-           </Link>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -37,19 +37,18 @@ const App = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarCollapse">
             <div className="navbar-nav ms-auto py-0">
-             <Link to="/"> <a  className="nav-item nav-link active">
-                Home
-              </a></Link>
-              <Link to="/about"><a className="nav-item nav-link ">
-                About
-              </a></Link>
-              <Link to="/services"><a  className="nav-item nav-link">
-                Services
-              </a></Link>
+              <Link to="/">
+                {" "}
+                <a className="nav-item nav-link active">Home</a>
+              </Link>
+              <Link to="/about">
+                <a className="nav-item nav-link ">About</a>
+              </Link>
+              <Link to="/services">
+                <a className="nav-item nav-link">Services</a>
+              </Link>
               <Link to="/contectus">
-              <a className="nav-item nav-link">
-                Contact Us
-              </a>
+                <a className="nav-item nav-link">Contact Us</a>
               </Link>
             </div>
           </div>
@@ -67,14 +66,12 @@ const App = () => {
               className="display-5 text-dark mb-4 wow fadeInUp"
               data-wow-delay="0.3s"
             >
-              NPNG ONLINE TRAINING COURSES
+              NPNG Institute - Learn From Top 1% Of Experts{" "}
             </h1>
             <p className="fs-5 mb-4 wow fadeInUp" data-wow-delay="0.5s">
-              WAt NPNG, we're passionate about empowering individuals to excel
-              in the dynamic world of web development. Whether you're a beginner
-              taking your first steps into the realm of coding or an experienced
-              developer looking to hone your skills, we have the courses and
-              resources you need to succeed.
+              NPNG is the best place to learn IT courses in chennai. We having
+              top level of mentors, practical classes, 100% placement assistance
+              etc., Join our courses Today!!
             </p>
             <a
               href="contact.html"
@@ -111,12 +108,10 @@ const App = () => {
                 services to meet your unique requirements.
               </p>
               <Link to="/about">
-              <a
-               className="btn btn-primary rounded-pill py-3 px-5"
-             >
-               About More
-             </a>
-             </Link>
+                <a className="btn btn-primary rounded-pill py-3 px-5">
+                  About More
+                </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -159,12 +154,9 @@ const App = () => {
                     full-stack development.
                   </p>
                   <Link to="/course">
-                  <a
-                    
-                    className="btn btn-light rounded-pill text-primary py-2 px-4"
-                  >
-                    Read More
-                  </a>
+                    <a className="btn btn-light rounded-pill text-primary py-2 px-4">
+                      Read More
+                    </a>
                   </Link>
                 </div>
               </div>
@@ -186,13 +178,10 @@ const App = () => {
                     Our curated courses in frontend development encompass HTML,
                     CSS, JavaScript, Bootstrap, and ReactJS.{" "}
                   </p>
-                 <Link to="/course">
-                 <a
-                    
-                    className="btn btn-light rounded-pill text-primary py-2 px-4"
-                  >
-                    Read More
-                  </a>
+                  <Link to="/course">
+                    <a className="btn btn-light rounded-pill text-primary py-2 px-4">
+                      Read More
+                    </a>
                   </Link>
                 </div>
               </div>
@@ -215,14 +204,11 @@ const App = () => {
                     scalable backend systems that power dynamic web
                     applications.{" "}
                   </p>
-                 <Link to="/course">
-                 <a
-                   
-                   className="btn btn-light rounded-pill text-primary py-2 px-4"
-                 >
-                   Read More
-                 </a>
-                 </Link>
+                  <Link to="/course">
+                    <a className="btn btn-light rounded-pill text-primary py-2 px-4">
+                      Read More
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -244,15 +230,11 @@ const App = () => {
                     and JavaScript. Learn to craft stunning, user-friendly
                     websites and applications from scratch.{" "}
                   </p>
-                <Link to="/course">
-
-                <a
-                    
-                    className="btn btn-light rounded-pill text-primary py-2 px-4"
-                  >
-                    Read More
-                  </a>
-                </Link>
+                  <Link to="/course">
+                    <a className="btn btn-light rounded-pill text-primary py-2 px-4">
+                      Read More
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -274,14 +256,11 @@ const App = () => {
                     interpersonal skills, public speaking, and professional
                     etiquette.
                   </p>
-                 <Link to="/course">
-                 <a
-           
-           className="btn btn-light rounded-pill text-primary py-2 px-4"
-         >
-           Read More
-         </a>
-         </Link>
+                  <Link to="/course">
+                    <a className="btn btn-light rounded-pill text-primary py-2 px-4">
+                      Read More
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -302,14 +281,11 @@ const App = () => {
                     topics, including critical thinking, problem-solving,
                     creativity, communication, teamwork, and time management
                   </p>
-                 <Link to="/course">
-                 <a
-                   
-                   className="btn btn-light rounded-pill text-primary py-2 px-4"
-                 >
-                   Read More
-                 </a>
-                 </Link>
+                  <Link to="/course">
+                    <a className="btn btn-light rounded-pill text-primary py-2 px-4">
+                      Read More
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -326,21 +302,47 @@ const App = () => {
             <div className="col-md-6 col-lg-6 col-xl-3">
               <div className="footer-item d-flex flex-column">
                 <h4 className="mb-4 text-dark">Quick Links</h4>
-                <Link to="/"> <a > Home</a></Link>
-                <Link to="/about"> <a > About Us</a></Link>
-                <Link to="/services"> <a > Services</a></Link>
-                <Link to="/contectus"> <a > Contact Us</a></Link>
+                <Link to="/">
+                  {" "}
+                  <a> Home</a>
+                </Link>
+                <Link to="/about">
+                  {" "}
+                  <a> About Us</a>
+                </Link>
+                <Link to="/services">
+                  {" "}
+                  <a> Services</a>
+                </Link>
+                <Link to="/contectus">
+                  {" "}
+                  <a> Contact Us</a>
+                </Link>
               </div>
             </div>
             <div className="col-md-6 col-lg-6 col-xl-3">
               <div className="footer-item d-flex flex-column">
                 <h4 className="mb-4 text-dark">Services</h4>
-                <Link to="/course"> <a > Frontend Development</a></Link>
-                <Link to="/course"> <a > Backend Development</a></Link>
-                <Link to="/course"> <a > Full Stack Development</a></Link>
-                <Link to="/course"> <a > Web Development</a></Link>
-                <Link to="/course"> <a > Communication</a></Link>
-               
+                <Link to="/course">
+                  {" "}
+                  <a> Frontend Development</a>
+                </Link>
+                <Link to="/course">
+                  {" "}
+                  <a> Backend Development</a>
+                </Link>
+                <Link to="/course">
+                  {" "}
+                  <a> Full Stack Development</a>
+                </Link>
+                <Link to="/course">
+                  {" "}
+                  <a> Web Development</a>
+                </Link>
+                <Link to="/course">
+                  {" "}
+                  <a> Communication</a>
+                </Link>
               </div>
             </div>
             <div className="col-md-6 col-lg-6 col-xl-6">
@@ -399,9 +401,6 @@ const App = () => {
           </div>
         </div>
       </div>
-
-     
-
     </>
   );
 };
