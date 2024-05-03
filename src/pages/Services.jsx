@@ -431,11 +431,12 @@ const Services = () => {
                 <div className="col-md-6 col-lg-6 col-xl-3">
                     <div className="footer-item d-flex flex-column">
                         <h4 className="mb-4 text-dark">Services</h4>
-                        <Link to="/course"> <a > Frontend Development</a></Link>
-                <Link to="/course"> <a > Backend Development</a></Link>
-                <Link to="/course"> <a > Full Stack Development</a></Link>
-                <Link to="/course"> <a > Web Development</a></Link>
-                <Link to="/course"> <a > Communication</a></Link>
+                        <Link to="/frontend"> <a > Frontend Development</a></Link>
+                <Link to="/backend"> <a > Backend Development</a></Link>
+                <Link to="/fullstack"> <a > Full Stack Development</a></Link>
+                <Link to="/webdevelopment"> <a > Web Development</a></Link>
+                <Link to="/comminication"> <a > Communication</a></Link>
+               
                     </div>
                 </div>
                 <div className="col-md-6 col-lg-6 col-xl-6">

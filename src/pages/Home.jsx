@@ -73,13 +73,15 @@ const App = () => {
             NPNG is the best place to learn IT courses in chennai. We having top level of mentors,
 practical classes, 100% placement assistance etc., Join our courses Today!!
             </p>
-            <a
-              href="contact.html"
+          <Link to="/contectus">
+          <a
+              
               className="btn btn-primary rounded-pill py-3 px-5 wow fadeInUp"
               data-wow-delay="0.7s"
             >
               Get Started
             </a>
+          </Link>
           </div>
           <div className="col-lg-6 wow fadeInRight" data-wow-delay="0.2s">
             <img src={bannerimage} className="img-fluid w-100 h-100" alt="" />
@@ -332,11 +334,11 @@ practical classes, 100% placement assistance etc., Join our courses Today!!
             <div className="col-md-6 col-lg-6 col-xl-3">
               <div className="footer-item d-flex flex-column">
                 <h4 className="mb-4 text-dark">Services</h4>
-                <Link to="/course"> <a > Frontend Development</a></Link>
-                <Link to="/course"> <a > Backend Development</a></Link>
-                <Link to="/course"> <a > Full Stack Development</a></Link>
-                <Link to="/course"> <a > Web Development</a></Link>
-                <Link to="/course"> <a > Communication</a></Link>
+                <Link to="/frontend"> <a > Frontend Development</a></Link>
+                <Link to="/backend"> <a > Backend Development</a></Link>
+                <Link to="/fullstack"> <a > Full Stack Development</a></Link>
+                <Link to="/webdevelopment"> <a > Web Development</a></Link>
+                <Link to="/comminication"> <a > Communication</a></Link>
                
               </div>
             </div>
