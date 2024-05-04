@@ -198,7 +198,7 @@ MySQL is a popular open-source relational database management system (RDBMS) use
               <span className="text-white">
                 <a href="https://www.npng.in/">
                   <i className="fas fa-copyright text-light me-2"></i>
-                  <span className="text-light">2023 </span>Npng
+                  <span className="text-light">{new Date().getFullYear()} </span>Npng
                 </a>
                 , All right reserved.
               </span>

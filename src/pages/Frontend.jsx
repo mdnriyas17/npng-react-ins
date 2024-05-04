@@ -201,7 +201,7 @@ At NPNG Institute, our frontend development courses cover all these essential te
               <span className="text-white">
                 <a href="https://www.npng.in/">
                   <i className="fas fa-copyright text-light me-2"></i>
-                  <span className="text-light">2023 </span>Npng
+                  <span className="text-light">{new Date().getFullYear()} </span>Npng
                 </a>
                 , All right reserved.
               </span>

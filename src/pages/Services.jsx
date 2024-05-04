@@ -469,7 +469,7 @@ const Services = () => {
         <div className="container">
             <div className="row g-4 align-items-center">
                 <div className="col-md-6 text-center text-md-start mb-md-0">
-                    <span className="text-white"><a href="https://www.npng.in/"><i className="fas fa-copyright text-light me-2"></i><span className="text-light">2023 </span>Npng</a>, All
+                    <span className="text-white"><a href="https://www.npng.in/"><i className="fas fa-copyright text-light me-2"></i><span className="text-light">2023 </span>{new Date().getFullYear()}</a>, All
                         right reserved.</span>
                 </div>
 
