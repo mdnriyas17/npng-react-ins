@@ -65,9 +65,9 @@ const Backend = () => {
                 <a>Home</a>
               </Link>
             </li>
-            <li className="breadcrumb-item">
+            {/* <li className="breadcrumb-item">
               <a href="#">Pages</a>
-            </li>
+            </li> */}
             <li className="breadcrumb-item active text-primary">
               Backend Development
             </li>
@@ -87,6 +87,12 @@ const Backend = () => {
                     Spring Boot. Gain the skills and knowledge to build robust,
                     scalable backend systems that power dynamic web
                     applications.{" "}
+                    <hr/>
+                    Backend development is the foundation of web applications, responsible for handling server-side operations and database management. It involves using technologies such as Java, MySQL, and Spring Boot to build robust and scalable backend systems.
+<hr/>
+Java is a versatile programming language widely used in backend development for its platform independence and strong community support. With Java, developers can create server-side applications, implement business logic, and handle complex computations efficiently.
+<hr/>
+MySQL is a popular open-source relational database management system (RDBMS) used for storing and retrieving data in backend applications. It offers features such as data integrity, transactions, and scalability, making it an ideal choice for managing structured data in web applications.
             </p>
           </div>
          
@@ -157,7 +163,7 @@ const Backend = () => {
                   <i className="fas fa-envelope me-2"></i> hello@npng.in
                 </a>
                 <a href="tel:+917200168369">
-                  <i className="fas fa-phone me-2"></i> +91 7200168369
+                  <i className="fas fa-phone-alt"></i> +91 7200168369
                 </a>
                 <div className="d-flex align-items-center">
                   <i className="fas fa-share fa-2x text-secondary me-2"></i>

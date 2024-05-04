@@ -11,6 +11,7 @@ import Backend from "./pages/Backend";
 import Comminication from "./pages/Communication";
 import FullStack from "./pages/FullStack";
 import Webdevelopment from "./pages/Webdevelopment";
+import Aptitude from "./pages/Aptitude";
 const App = () => {
   return (
     <>
@@ -25,6 +26,7 @@ const App = () => {
         <Route path="/comminication" element={<Comminication />} />
         <Route path="/fullstack" element={<FullStack />} />
         <Route path="/webdevelopment" element={<Webdevelopment />} />
+        <Route path="/aptitude" element={<Aptitude />} />
         <Route exact key={"*"} path="*" element={<Notfound />} />
       </Routes>
     </>

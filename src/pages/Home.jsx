@@ -157,7 +157,7 @@ practical classes, 100% placement assistance etc., Join our courses Today!!
                     knowledge you need to succeed in the fast-paced world of
                     full-stack development.
                   </p>
-                  <Link to="/course">
+                  <Link to="/fullstack">
                   <a
                     
                     className="btn btn-light rounded-pill text-primary py-2 px-4"
@@ -185,7 +185,7 @@ practical classes, 100% placement assistance etc., Join our courses Today!!
                     Our curated courses in frontend development encompass HTML,
                     CSS, JavaScript, Bootstrap, and ReactJS.{" "}
                   </p>
-                 <Link to="/course">
+                 <Link to="/frontend">
                  <a
                     
                     className="btn btn-light rounded-pill text-primary py-2 px-4"
@@ -214,7 +214,7 @@ practical classes, 100% placement assistance etc., Join our courses Today!!
                     scalable backend systems that power dynamic web
                     applications.{" "}
                   </p>
-                 <Link to="/course">
+                 <Link to="/backend">
                  <a
                    
                    className="btn btn-light rounded-pill text-primary py-2 px-4"
@@ -243,7 +243,7 @@ practical classes, 100% placement assistance etc., Join our courses Today!!
                     and JavaScript. Learn to craft stunning, user-friendly
                     websites and applications from scratch.{" "}
                   </p>
-                <Link to="/course">
+                <Link to="/webdevelopment">
 
                 <a
                     
@@ -273,7 +273,7 @@ practical classes, 100% placement assistance etc., Join our courses Today!!
                     interpersonal skills, public speaking, and professional
                     etiquette.
                   </p>
-                 <Link to="/course">
+                 <Link to="/comminication">
                  <a
            
            className="btn btn-light rounded-pill text-primary py-2 px-4"
@@ -301,7 +301,7 @@ practical classes, 100% placement assistance etc., Join our courses Today!!
                     topics, including critical thinking, problem-solving,
                     creativity, communication, teamwork, and time management
                   </p>
-                 <Link to="/course">
+                 <Link to="/aptitude">
                  <a
                    
                    className="btn btn-light rounded-pill text-primary py-2 px-4"
@@ -354,7 +354,7 @@ practical classes, 100% placement assistance etc., Join our courses Today!!
                   <i className="fas fa-envelope me-2"></i> hello@npng.in
                 </a>
                 <a href="tel:+917200168369">
-                  <i className="fas fa-phone me-2"></i> +91 7200168369
+                  <i className="fas fa-phone-alt"></i> +91 7200168369
                 </a>
                 <div className="d-flex align-items-center">
                   <i className="fas fa-share fa-2x text-secondary me-2"></i>

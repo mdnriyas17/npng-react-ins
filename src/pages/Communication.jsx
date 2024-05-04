@@ -65,9 +65,9 @@ const Communication = () => {
                 <a>Home</a>
               </Link>
             </li>
-            <li className="breadcrumb-item">
+            {/* <li className="breadcrumb-item">
               <a href="#">Pages</a>
-            </li>
+            </li> */}
             <li className="breadcrumb-item active text-primary">
             Communication
             </li>
@@ -83,10 +83,15 @@ const Communication = () => {
             <h4 className="mb-1 text-primary"></h4>
             <h1 className="display-5 mb-4">Communication</h1>
             <p className="mb-0">
-            Our communication development courses cover a wide range of
-                    topics, including verbal and written communication,
-                    interpersonal skills, public speaking, and professional
-                    etiquette.
+            Effective communication is essential for success in the field of web development, and at NPNG, we're here to help you sharpen your communication skills and become a confident and effective communicator.
+<hr/>
+Our communication development courses cover a wide range of topics, including verbal and written communication, interpersonal skills, public speaking, and professional etiquette. Whether you're communicating with colleagues, clients, or stakeholders, our courses will provide you with the tools and techniques you need to convey your ideas clearly, confidently, and persuasively.
+<hr/>
+Through interactive workshops, role-playing exercises, and real-world simulations, we'll help you develop the ability to communicate effectively in any situation. You'll learn how to structure your thoughts, tailor your message to your audience, and deliver presentations that captivate and inspire.
+<hr/>
+At NPNG, we understand that communication is not just about what you say, but how you say it. That's why our courses also focus on non-verbal communication, active listening, and empathy, helping you build stronger relationships and foster a positive and collaborative work environment.
+<hr/>
+Whether you're a beginner looking to improve your communication skills or an experienced developer looking to take your communication to the next level, NPNG Institute has the resources and expertise to help you succeed. Join us and unlock your potential to become a confident and effective communicator in the dynamic and fast-paced world of web development.
             </p>
           </div>
          
@@ -157,7 +162,7 @@ const Communication = () => {
                   <i className="fas fa-envelope me-2"></i> hello@npng.in
                 </a>
                 <a href="tel:+917200168369">
-                  <i className="fas fa-phone me-2"></i> +91 7200168369
+                  <i className="fas fa-phone-alt"></i> +91 7200168369
                 </a>
                 <div className="d-flex align-items-center">
                   <i className="fas fa-share fa-2x text-secondary me-2"></i>

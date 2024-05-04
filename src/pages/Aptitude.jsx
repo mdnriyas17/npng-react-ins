@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import image1 from "../images/npng-logo(1).png";
-const Frontend = () => {
+const Aptitude = () => {
   return (
     <>
       <div className="container-fluid p-0">
@@ -69,7 +69,7 @@ const Frontend = () => {
               <a href="#">Pages</a>
             </li> */}
             <li className="breadcrumb-item active text-primary">
-              Frontend Development
+              Aptitude
             </li>
           </ol>
         </div>
@@ -81,27 +81,22 @@ const Frontend = () => {
             data-wow-delay="0.1s"
           >
             <h4 className="mb-1 text-primary"></h4>
-            <h1 className="display-5 mb-4">Frontend Development</h1>
+            <h1 className="display-5 mb-4">Aptitude</h1>
             <p className="mb-0">
-              Welcome to NPNG Institute, your premier destination for mastering frontend development. Frontend development is the process of creating the visible parts of a website or web application thatusers interact with directly. It involves using technologies such as HTML, CSS, and JavaScript to build user interfaces and ensure seamless functionality across various devices and browsers.
+            Aptitude development encompasses a range of skills and attributes essential for success in the field of web development.
 <hr/>
-HTML (Hypertext Markup Language) serves as the foundation of web development, providing the structure and content of web pages. It defines the layout of elements such as text, images, and multimedia, enabling developers to create well-organized and accessible websites.
+At NPNG, we understand that technical skills alone are not enough to thrive in the fast-paced and ever-evolving world of web development. That's why we offer comprehensive aptitude development programs designed to equip aspiring web developers with the mindset, soft skills, and problem-solving abilities needed to excel in their careers.
 <hr/>
-CSS (Cascading Style Sheets) is used to style HTML elements and enhance the visual appearance of web pages. With CSS, developers can customize colors, fonts, spacing, and layout, ensuring a consistent and visually appealing design across different devices.
+Our aptitude development courses cover a wide range of topics, including critical thinking, problem-solving, creativity, communication, teamwork, and time management. These skills are crucial for effectively collaborating with colleagues, communicating with clients, and tackling complex challenges in web development projects.
 <hr/>
-JavaScript is a dynamic programming language that adds interactivity and functionality to web pages. It allows developers to create interactive features such as animations, form validation, and dynamic content updates, enhancing user engagement and experience.
+Through hands-on exercises, real-world projects, and expert guidance, we help our students cultivate a growth mindset and develop the confidence to tackle any challenge that comes their way. We believe that by investing in aptitude development, web developers can unlock their full potential and achieve greater success in their careers.
 <hr/>
-Bootstrap is a popular front-end framework that simplifies the process of building responsive and mobile-friendly websites. It provides pre-designed components, layouts, and CSS styles, allowing developers to create professional-looking web interfaces quickly and efficiently.
-<hr/>
-ReactJS is a powerful JavaScript library for building user interfaces, developed by Facebook. It allows developers to create reusable UI components and manage the state of web applications efficiently. With its component-based architecture and virtual DOM (Document Object Model), ReactJS facilitates the development of scalable and maintainable web applications.
-<hr/>
-At NPNG Institute, our frontend development courses cover all these essential technologies, empowering you to become a proficient frontend developer. Whether you're a beginner or an experienced coder, our expert-led programs provide hands-on training and real-world projects to help you master the fundamentals and advance your skills in frontend development.
+Whether you're a beginner looking to enter the field of web development or an experienced developer looking to sharpen your skills, NPNG Institute has the resources and expertise to help you reach your goals. Join us and embark on a journey of personal and professional growth as you become a skilled and confident web developer.
             </p>
           </div>
-         
         </div>
       </div>
-     
+
       <div
         className="container-fluid footer py-5 wow fadeIn"
         data-wow-delay="0.2s"
@@ -213,4 +208,4 @@ At NPNG Institute, our frontend development courses cover all these essential te
   );
 };
 
-export default Frontend;
+export default Aptitude;

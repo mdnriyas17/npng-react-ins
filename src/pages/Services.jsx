@@ -101,13 +101,14 @@ const Services = () => {
                     knowledge you need to succeed in the fast-paced world of
                     full-stack development.
                   </p>
-                 <Link to="/course">  <a
+                  <Link to="/fullstack">
+                  <a
                     
                     className="btn btn-light rounded-pill text-primary py-2 px-4"
                   >
                     Read More
                   </a>
-                 </Link>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -128,14 +129,14 @@ const Services = () => {
                     Our curated courses in frontend development encompass HTML,
                     CSS, JavaScript, Bootstrap, and ReactJS.{" "}
                   </p>
-                 <Link to="/course">
+                 <Link to="/frontend">
                  <a
                     
                     className="btn btn-light rounded-pill text-primary py-2 px-4"
                   >
                     Read More
                   </a>
-                 </Link>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -157,13 +158,13 @@ const Services = () => {
                     scalable backend systems that power dynamic web
                     applications.{" "}
                   </p>
-                 <Link to="/course">
+                 <Link to="/backend">
                  <a
-                    
-                    className="btn btn-light rounded-pill text-primary py-2 px-4"
-                  >
-                    Read More
-                  </a>
+                   
+                   className="btn btn-light rounded-pill text-primary py-2 px-4"
+                 >
+                   Read More
+                 </a>
                  </Link>
                 </div>
               </div>
@@ -186,14 +187,15 @@ const Services = () => {
                     and JavaScript. Learn to craft stunning, user-friendly
                     websites and applications from scratch.{" "}
                   </p>
-                 <Link to="/course">
-                 <a
+                <Link to="/webdevelopment">
+
+                <a
                     
                     className="btn btn-light rounded-pill text-primary py-2 px-4"
                   >
                     Read More
                   </a>
-                 </Link>
+                </Link>
                 </div>
               </div>
             </div>
@@ -215,14 +217,14 @@ const Services = () => {
                     interpersonal skills, public speaking, and professional
                     etiquette.
                   </p>
-                  <Link to="/course">
-                  <a
-                   
-                   className="btn btn-light rounded-pill text-primary py-2 px-4"
-                 >
-                   Read More
-                 </a>
-                 </Link>
+                 <Link to="/comminication">
+                 <a
+           
+           className="btn btn-light rounded-pill text-primary py-2 px-4"
+         >
+           Read More
+         </a>
+         </Link>
                 </div>
               </div>
             </div>
@@ -243,12 +245,13 @@ const Services = () => {
                     topics, including critical thinking, problem-solving,
                     creativity, communication, teamwork, and time management
                   </p>
-                 <Link to="/course">  <a
-                    
-                    className="btn btn-light rounded-pill text-primary py-2 px-4"
-                  >
-                    Read More
-                  </a>
+                 <Link to="/aptitude">
+                 <a
+                   
+                   className="btn btn-light rounded-pill text-primary py-2 px-4"
+                 >
+                   Read More
+                 </a>
                  </Link>
                 </div>
               </div>
@@ -268,7 +271,7 @@ const Services = () => {
                                     Frontend Development
                                 </button>
                             </h2>
-                            <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            <div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne"
                                 data-bs-parent="#accordionExample">
                                 <div className="accordion-body my-2">
                                     <div>
@@ -445,7 +448,7 @@ const Services = () => {
                         <a href=""><i className="fa fa-map-marker-alt me-2"></i> No 18, 2nd St, Balakrishnapuram,
                             Adambakkam, Chennai, Ramapuram, Tamil Nadu 600088</a>
                         <a href="mailto:hello@npng.in"><i className="fas fa-envelope me-2"></i> hello@npng.in</a>
-                        <a href="tel:+917200168369"><i className="fas fa-phone me-2"></i> +91 7200168369</a>
+                        <a href="tel:+917200168369"><i className="fas fa-phone-alt"></i> +91 7200168369</a>
                         <div className="d-flex align-items-center">
                             <i className="fas fa-share fa-2x text-secondary me-2"></i>
                             <a className="btn-square btn btn-primary rounded-circle mx-1"

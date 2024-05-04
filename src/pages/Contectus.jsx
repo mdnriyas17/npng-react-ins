@@ -255,7 +255,7 @@ const Contectus = () => {
                   <i className="fas fa-envelope me-2"></i> hello@npng.in
                 </a>
                 <a href="tel:+917200168369">
-                  <i className="fas fa-phone me-2"></i> +91 7200168369
+                  <i className="fas fa-phone-alt"></i> +91 7200168369
                 </a>
                 <div className="d-flex align-items-center">
                   <i className="fas fa-share fa-2x text-secondary me-2"></i>

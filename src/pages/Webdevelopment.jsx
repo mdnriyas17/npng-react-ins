@@ -65,9 +65,9 @@ const Webdevelopment = () => {
                 <a>Home</a>
               </Link>
             </li>
-            <li className="breadcrumb-item">
+            {/* <li className="breadcrumb-item">
               <a href="#">Pages</a>
-            </li>
+            </li> */}
             <li className="breadcrumb-item active text-primary">
             Web Development
             </li>
@@ -87,6 +87,14 @@ const Webdevelopment = () => {
                     Explore our courses covering Adobe tools, Figma, HTML, CSS,
                     and JavaScript. Learn to craft stunning, user-friendly
                     websites and applications from scratch.{" "}
+<hr/> 
+                    Web development encompasses a range of skills and technologies essential for creating websites and web applications that deliver exceptional user experiences.
+<hr/>
+Adobe Creative Suite is a suite of software tools used by web developers for graphic design, video editing, and web development. Programs like Photoshop, Illustrator, and XD are invaluable for creating visually stunning designs and prototypes.
+<hr/>
+Figma is a collaborative interface design tool that enables web developers to create, prototype, and collaborate on designs in real-time. It streamlines the design process and facilitates seamless communication between designers and developers.
+<hr/>
+HTML (Hypertext Markup Language) is the foundation of web development, used to structure the content of web pages. It defines the layout and organization of elements such as text, images, and multimedia, providing the structure for websites.
             </p>
           </div>
          
@@ -157,7 +165,7 @@ const Webdevelopment = () => {
                   <i className="fas fa-envelope me-2"></i> hello@npng.in
                 </a>
                 <a href="tel:+917200168369">
-                  <i className="fas fa-phone me-2"></i> +91 7200168369
+                  <i className="fas fa-phone-alt"></i> +91 7200168369
                 </a>
                 <div className="d-flex align-items-center">
                   <i className="fas fa-share fa-2x text-secondary me-2"></i>

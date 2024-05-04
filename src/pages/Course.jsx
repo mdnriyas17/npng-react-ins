@@ -77,7 +77,7 @@ const course = () => {
                                         Frontend Development
                                     </button>
                                 </h2>
-                                <div id="collapseOne" className="accordion-collapse collapse show"
+                                <div id="collapseOne" className="accordion-collapse collapse"
                                     aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div className="accordion-body my-2">
                                         <div>
@@ -342,7 +342,7 @@ const course = () => {
                         <a href=""><i className="fa fa-map-marker-alt me-2"></i> No 18, 2nd St, Balakrishnapuram,
                             Adambakkam, Chennai, Ramapuram, Tamil Nadu 600088</a>
                         <a href="mailto:hello@npng.in"><i className="fas fa-envelope me-2"></i> hello@npng.in</a>
-                        <a href="tel:+917200168369"><i className="fas fa-phone me-2"></i> +91 7200168369</a>
+                        <a href="tel:+917200168369"><i className="fas fa-phone-alt"></i> +91 7200168369</a>
                         <div className="d-flex align-items-center">
                             <i className="fas fa-share fa-2x text-secondary me-2"></i>
                             <a className="btn-square btn btn-primary rounded-circle mx-1"

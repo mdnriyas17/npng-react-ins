@@ -65,9 +65,9 @@ const FullStack = () => {
                 <a>Home</a>
               </Link>
             </li>
-            <li className="breadcrumb-item">
+            {/* <li className="breadcrumb-item">
               <a href="#">Pages</a>
-            </li>
+            </li> */}
             <li className="breadcrumb-item active text-primary">
               Full-Stack Development
             </li>
@@ -83,13 +83,17 @@ const FullStack = () => {
             <h4 className="mb-1 text-primary"></h4>
             <h1 className="display-5 mb-4">Full-Stack Development</h1>
             <p className="mb-0">
-              Full-stack development involves working on both the frontend and
-              backend components of web applications, covering a wide range of
-              technologies and skills. HTML, CSS, and JavaScript form the
-              foundation of frontend development, allowing developers to create
-              visually appealing and interactive user interfaces. HTML provides
-              the structure, CSS handles the styling, and JavaScript adds
-              interactivity and functionality to web pages.
+            Full-stack development involves working on both the frontend and backend components of web applications, covering a wide range of technologies and skills.
+<hr/>
+HTML, CSS, and JavaScript form the foundation of frontend development, allowing developers to create visually appealing and interactive user interfaces. HTML provides the structure, CSS handles the styling, and JavaScript adds interactivity and functionality to web pages.
+<hr/>
+Bootstrap is a frontend framework that simplifies the process of building responsive and mobile-friendly websites. It provides pre-designed components and layouts, enabling developers to create professional-looking interfaces quickly and efficiently.
+<hr/>
+ReactJS is a JavaScript library for building user interfaces, known for its component-based architecture and virtual DOM. It allows developers to create reusable UI components and manage the state of web applications efficiently, enhancing productivity and scalability.
+<hr/>
+Node.js is a server-side JavaScript runtime environment that enables developers to build scalable and high-performance backend systems. It uses an event-driven, non-blocking I/O model, making it ideal for building real-time web applications. real-world projects to help you master the intricacies of full-stack development.
+<hr/>
+MongoDB is a popular NoSQL database used for storing and retrieving data in backend applications. It offers flexibility, scalability, and high performance, making it well-suited for handling large volumes of data in modern web applications. pages.
             </p>
           </div>
         </div>
@@ -159,7 +163,7 @@ const FullStack = () => {
                   <i className="fas fa-envelope me-2"></i> hello@npng.in
                 </a>
                 <a href="tel:+917200168369">
-                  <i className="fas fa-phone me-2"></i> +91 7200168369
+                  <i className="fas fa-phone-alt"></i> +91 7200168369
                 </a>
                 <div className="d-flex align-items-center">
                   <i className="fas fa-share fa-2x text-secondary me-2"></i>
