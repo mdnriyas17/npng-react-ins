@@ -148,6 +148,8 @@ Whether you're a beginner looking to improve your communication skills or an exp
                   {" "}
                   <a> Communication</a>
                 </Link>
+                <Link to="/aptitude">{" "} <a > Aptitude</a></Link>
+
               </div>
             </div>
             <div className="col-md-6 col-lg-6 col-xl-6">

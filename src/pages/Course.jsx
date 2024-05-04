@@ -333,7 +333,8 @@ const course = () => {
                 <Link to="/fullstack"> <a > Full Stack Development</a></Link>
                 <Link to="/webdevelopment"> <a > Web Development</a></Link>
                 <Link to="/comminication"> <a > Communication</a></Link>
-               
+                <Link to="/aptitude"> <a > Aptitude</a></Link>
+
                     </div>
                 </div>
                 <div className="col-md-6 col-lg-6 col-xl-6">

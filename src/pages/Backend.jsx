@@ -149,6 +149,8 @@ MySQL is a popular open-source relational database management system (RDBMS) use
                   {" "}
                   <a> Communication</a>
                 </Link>
+                <Link to="/aptitude">{" "}<a > Aptitude</a></Link>
+
               </div>
             </div>
             <div className="col-md-6 col-lg-6 col-xl-6">
