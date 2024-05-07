@@ -148,3 +148,20 @@ const Five = () => {
 const Six = () => {
     document.getElementById('collapseSix').classList.add("show");
 }
+
+  // Function to scroll to the top of the page
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth' // Optional: smooth scrolling animation
+    });
+  }
+  
+  // Event listener to scroll to top when a link is clicked
+  document.addEventListener('click', function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      link.addEventListener('click', scrollToTop);
+    });
+  });
+  

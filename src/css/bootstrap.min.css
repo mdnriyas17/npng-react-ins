@@ -3842,6 +3842,7 @@ fieldset:disabled .btn {
     flex-basis: auto;
   }
   .navbar-expand-md .navbar-toggler {
+    background-color: transparent;
     display: none;
   }
 }
@@ -3868,6 +3869,7 @@ fieldset:disabled .btn {
     flex-basis: auto;
   }
   .navbar-expand-lg .navbar-toggler {
+    background-color: transparent;
     display: none;
   }
 }

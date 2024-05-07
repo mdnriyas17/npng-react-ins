@@ -98,7 +98,7 @@ const About = () => {
             <div className="row g-5">
                 
                 <div className="col-lg-6 wow fadeInRight" data-wow-delay="0.1s">
-                    <h1 className="text-primary">Fearutes</h1>
+                    <h1 className="text-primary">Features</h1>
                     <p className="mb-4">At NPNG, we don't just offer courses; we provide an unparalleled learning experience that sets the standard for excellence in web development education. With a commitment to quality, innovation, and student success, NPNG stands as a beacon of excellence in the world of online education.
                     </p>
                     <div className="row  g-4">
