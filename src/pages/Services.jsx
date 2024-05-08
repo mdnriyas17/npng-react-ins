@@ -2,8 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import image1 from "../images/npng-logo(1).png";
 import imagesty1 from "../img/sty-1.png";
-import imageabout from "../images/about2.jpg";
-import bannerimage from "../images/banner.jpg";
 import imagefullstack from "../images/fullstack.jpg";
 import imaagefront from "../images/frontend.jpg";
 import imagebackend from "../images/backend.jpg";
@@ -24,13 +22,13 @@ const Services = () => {
             </button>
             <div className="collapse navbar-collapse" id="navbarCollapse">
                 <div className="navbar-nav ms-auto py-0 px-4">
-                <Link to="/"> <a  className="nav-item nav-link active">
+                <Link to="/"> <a  className="nav-item nav-link">
                 Home
               </a></Link>
               <Link to="/about"><a className="nav-item nav-link ">
                 About
               </a></Link>
-              <Link to="/services"><a  className="nav-item nav-link">
+              <Link to="/services"><a  className="nav-item nav-link active">
                 Services
               </a></Link>
               <Link to="/contectus">
@@ -210,7 +208,7 @@ const Services = () => {
                   </div>
                 </div>
                 <div className="service-content">
-                  <h4 className="mb-4">Comminication</h4>
+                  <h4 className="mb-4">Communication</h4>
                   <p className="mb-4 text-left">
                     Our communication development courses cover a wide range of
                     topics, including verbal and written communication,
@@ -446,8 +444,8 @@ const Services = () => {
                 <div className="col-md-6 col-lg-6 col-xl-6">
                     <div className="footer-item d-flex flex-column">
                         <h4 className="mb-4 text-dark">Contact Info</h4>
-                        <a href=""><i className="fa fa-map-marker-alt me-2"></i> No 18, 2nd St, Balakrishnapuram,
-                            Adambakkam, Chennai, Ramapuram, Tamil Nadu 600088</a>
+                       <Link to="/contectus">  <a><i className="fa fa-map-marker-alt me-2"></i> No 18, 2nd St, Balakrishnapuram,
+                            Adambakkam, Chennai, Ramapuram, Tamil Nadu 600088</a></Link>
                         <a href="mailto:hello@npng.in"><i className="fas fa-envelope me-2"></i> hello@npng.in</a>
                         <a href="tel:+917200168369"><i className="fas fa-phone-alt"></i> +91 7200168369</a>
                         <div className="d-flex align-items-center">

@@ -26,10 +26,10 @@ const About = () => {
             </button>
             <div className="collapse navbar-collapse" id="navbarCollapse">
                 <div className="navbar-nav ms-auto py-0 px-4">
-                <Link to="/"> <a  className="nav-item nav-link active">
+                <Link to="/"> <a  className="nav-item nav-link">
                 Home
               </a></Link>
-              <Link to="/about"><a className="nav-item nav-link ">
+              <Link to="/about"><a className="nav-item nav-link active">
                 About
               </a></Link>
               <Link to="/services"><a  className="nav-item nav-link">

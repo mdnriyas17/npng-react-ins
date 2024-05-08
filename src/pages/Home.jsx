@@ -266,7 +266,7 @@ practical classes, 100% placement assistance etc., Join our courses Today!!
                   </div>
                 </div>
                 <div className="service-content">
-                  <h4 className="mb-4">Comminication</h4>
+                  <h4 className="mb-4">Communication</h4>
                   <p className="mb-4 text-left">
                     Our communication development courses cover a wide range of
                     topics, including verbal and written communication,
@@ -345,11 +345,8 @@ practical classes, 100% placement assistance etc., Join our courses Today!!
             <div className="col-md-6 col-lg-6 col-xl-6">
               <div className="footer-item d-flex flex-column">
                 <h4 className="mb-4 text-dark">Contact Info</h4>
-                <a href="">
-                  <i className="fa fa-map-marker-alt me-2"></i> No 18, 2nd St,
-                  Balakrishnapuram, Adambakkam, Chennai, Ramapuram, Tamil Nadu
-                  600088
-                </a>
+                <Link to="/contectus">  <a><i className="fa fa-map-marker-alt me-2"></i> No 18, 2nd St, Balakrishnapuram,
+                            Adambakkam, Chennai, Ramapuram, Tamil Nadu 600088</a></Link>
                 <a href="mailto:hello@npng.in">
                   <i className="fas fa-envelope me-2"></i> hello@npng.in
                 </a>
