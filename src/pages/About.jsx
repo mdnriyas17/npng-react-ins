@@ -72,7 +72,7 @@ const About = () => {
         <div className="container py-5">
             <div className="row g-5">
                 <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div className="RotateMoveLeft">
+                    <div className="">
                         <img src={Aboutlogo} className="img-fluid w-100" alt=""/>
                     </div>
                 </div>
@@ -122,12 +122,12 @@ const About = () => {
                         </div>
                     </div>
                     <div className="my-4">
-                        <Link to="/cource"><a className="btn btn-primary rounded-pill py-3 px-5">Read More</a></Link>
+                        <Link to="/services"><a className="btn btn-primary rounded-pill py-3 px-5">Read More</a></Link>
                     </div>
                 </div>
                 <div className="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
-                    <div className="feature-img RotateMoveLeft h-100" >
-                        <img src={featurelogo} className="img-fluid w-100 h-100" alt=""/>
+                    <div className="feature-img  h-100" >
+                        <img src={featurelogo} className="img-fluid w-100 h-100"/>
                     </div>
                 </div>
             </div>
@@ -161,8 +161,8 @@ const About = () => {
                 <div className="col-md-6 col-lg-6 col-xl-6">
                     <div className="footer-item d-flex flex-column">
                         <h4 className="mb-4 text-dark">Contact Info</h4>
-                        <a href=""><i className="fa fa-map-marker-alt me-2"></i> No 18, 2nd St, Balakrishnapuram,
-                            Adambakkam, Chennai, Ramapuram, Tamil Nadu 600088</a>
+                     <Link to="/contectus">   <a ><i className="fa fa-map-marker-alt me-2"></i> No 18, 2nd St, Balakrishnapuram,
+                            Adambakkam, Chennai, Ramapuram, Tamil Nadu 600088</a></Link>
                         <a href="mailto:hello@npng.in"><i className="fas fa-envelope me-2"></i> hello@npng.in</a>
                         <a href="tel:+917200168369"><i className="fas fa-phone-alt"></i> +91 7200168369</a>
                         <div className="d-flex align-items-center">

@@ -84,7 +84,7 @@ practical classes, 100% placement assistance etc., Join our courses Today!!
           </Link>
           </div>
           <div className="col-lg-6 wow fadeInRight" data-wow-delay="0.2s">
-            <img src={bannerimage} className="img-fluid w-100 h-100" alt="" />
+            <img src={bannerimage} className="img-fluid w-100 h-100" />
           </div>
         </div>
       </div>
@@ -93,9 +93,9 @@ practical classes, 100% placement assistance etc., Join our courses Today!!
         <div className="container py-5">
           <div className="row g-5">
             <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-              <div className="RotateMoveLeft">
+              <div className="">
                 <div className="about_image">
-                  <img src={imageabout} className="img-fluid w-100" alt="" />
+                  <img src={imageabout} className="img-fluid w-100" />
                 </div>
               </div>
             </div>
