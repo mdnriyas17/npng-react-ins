@@ -44,7 +44,7 @@ const App = () => {
                 About
               </a></Link>
               <Link to="/services"><a  className="nav-item nav-link">
-                Services
+              Courses
               </a></Link>
               <Link to="/contectus">
               <a className="nav-item nav-link">
@@ -127,7 +127,7 @@ practical classes, 100% placement assistance etc., Join our courses Today!!
             className="text-center mx-auto mb-5 wow fadeInUp"
             data-wow-delay="0.1s"
           >
-            <h4 className="mb-1 text-primary">Our Service</h4>
+            <h4 className="mb-1 text-primary">Our Courses</h4>
             <h1 className="display-5 mb-4">What We Can Do For You</h1>
             <p className="mb-0">
               At NPNG, we offer a comprehensive range of services designed to
@@ -291,11 +291,11 @@ practical classes, 100% placement assistance etc., Join our courses Today!!
               <div className="service-item text-center rounded p-4">
                 <div className="service-icon d-inline-block bg-light rounded mb-4">
                   <div className="service_icon">
-                    <img src={imageaptitude} alt="" />
+                    <img src={imageaptitude} alt="aptitude" />
                   </div>
                 </div>
                 <div className="service-content">
-                  <h4 className="mb-4">Aptitute</h4>
+                  <h4 className="mb-4">Aptitude</h4>
                   <p className="mb-4 text-left">
                     Our aptitude development courses cover a wide range of
                     topics, including critical thinking, problem-solving,
@@ -327,13 +327,13 @@ practical classes, 100% placement assistance etc., Join our courses Today!!
                 <h4 className="mb-4 text-dark">Quick Links</h4>
                 <Link to="/"> <a > Home</a></Link>
                 <Link to="/about"> <a > About Us</a></Link>
-                <Link to="/services"> <a > Services</a></Link>
+                <Link to="/services"> <a > Courses</a></Link>
                 <Link to="/contectus"> <a > Contact Us</a></Link>
               </div>
             </div>
             <div className="col-md-6 col-lg-6 col-xl-3">
               <div className="footer-item d-flex flex-column">
-                <h4 className="mb-4 text-dark">Services</h4>
+                <h4 className="mb-4 text-dark">Courses</h4>
                 <Link to="/frontend"> <a > Frontend Development</a></Link>
                 <Link to="/backend"> <a > Backend Development</a></Link>
                 <Link to="/fullstack"> <a > Full Stack Development</a></Link>

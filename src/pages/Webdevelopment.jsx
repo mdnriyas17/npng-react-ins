@@ -29,7 +29,7 @@ const Webdevelopment = () => {
                 <a className="nav-item nav-link ">About</a>
               </Link>
               <Link to="/services">
-                <a className="nav-item nav-link">Services</a>
+                <a className="nav-item nav-link">Courses</a>
               </Link>
               <Link to="/contectus">
                 <a className="nav-item nav-link">Contact Us</a>
@@ -54,7 +54,7 @@ const Webdevelopment = () => {
         </ul>
         <div className="container text-center py-5" style={{ maxWidth: 900 }}>
           <h3 className="display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">
-            Our Services
+            Our Courses
           </h3>
           <ol
             className="breadcrumb justify-content-center mb-0 wow fadeInDown"
@@ -120,7 +120,7 @@ HTML (Hypertext Markup Language) is the foundation of web development, used to s
                 </Link>
                 <Link to="/services">
                   {" "}
-                  <a> Services</a>
+                  <a> Courses</a>
                 </Link>
                 <Link to="/contectus">
                   {" "}
@@ -130,7 +130,7 @@ HTML (Hypertext Markup Language) is the foundation of web development, used to s
             </div>
             <div className="col-md-6 col-lg-6 col-xl-3">
               <div className="footer-item d-flex flex-column">
-                <h4 className="mb-4 text-dark">Services</h4>
+                <h4 className="mb-4 text-dark">Courses</h4>
                 <Link to="/frontend">
                   {" "}
                   <a> Frontend Development</a>

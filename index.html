@@ -66,14 +66,14 @@
 
         // Sticky Navbar
         $(window).scroll(function () {
-    if($(window).width() < 992) {
-        if ($(this).scrollTop() > 45) {
-            $(".navbar").addClass("sticky-top shadow-sm");
-        } else {
-            $(".navbar").removeClass("sticky-top shadow-sm");
-        }
-    }
-});
+          if ($(window).width() < 992) {
+            if ($(this).scrollTop() > 45) {
+              $(".navbar").addClass("sticky-top shadow-sm");
+            } else {
+              $(".navbar").removeClass("sticky-top shadow-sm");
+            }
+          }
+        });
 
         // // Hero Header carousel
         // $(".header-carousel").owlCarousel({
@@ -198,7 +198,7 @@
       }
 
       // Event listener to scroll to top when a link is clicked
-      document.addEventListener("click", function () {
+      document.addEventListener("scroll",()=>{
         const links = document.querySelectorAll("a");
         links.forEach((link) => {
           link.addEventListener("click", scrollToTop);

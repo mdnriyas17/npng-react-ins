@@ -33,7 +33,7 @@ const About = () => {
                 About
               </a></Link>
               <Link to="/services"><a  className="nav-item nav-link">
-                Services
+                Courses
               </a></Link>
               <Link to="/contectus">
               <a className="nav-item nav-link">
@@ -142,13 +142,13 @@ const About = () => {
                         <h4 className="mb-4 text-dark">Quick Links</h4>
                         <Link to="/"> <a > Home</a></Link>
                 <Link to="/about"> <a > About Us</a></Link>
-                <Link to="/services"> <a > Services</a></Link>
+                <Link to="/services"> <a > Courses</a></Link>
                 <Link to="/contectus"> <a > Contact Us</a></Link>
                     </div>
                 </div>
                 <div className="col-md-6 col-lg-6 col-xl-3">
                     <div className="footer-item d-flex flex-column">
-                        <h4 className="mb-4 text-dark">Services</h4>
+                        <h4 className="mb-4 text-dark">Courses</h4>
                         <Link to="/frontend"> <a > Frontend Development</a></Link>
                 <Link to="/backend"> <a > Backend Development</a></Link>
                 <Link to="/fullstack"> <a > Full Stack Development</a></Link>

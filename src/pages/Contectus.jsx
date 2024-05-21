@@ -1,7 +1,45 @@
 import React from "react";
 import image1 from "../images/npng-logo(1).png";
 import { Link } from "react-router-dom";
+import { useState } from "react";
+import axios from "axios";
 const Contectus = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [phone, setPhone] = useState("");
+  const [buttonclick, setButtonclick] = useState(false);
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    
+    if (!name || !email || !message || !phone) {
+      alert("Please fill all the fields");
+      return;
+    }
+  
+    setButtonclick(true);
+  
+    const data = {
+      name,
+      email,
+      message,
+      phone,
+    };
+  
+    try {
+      const response = await axios.post("https://for-zohomailer.onrender.com/contact", data);
+      alert("Message sent successfully");
+      setName("");
+      setEmail("");
+      setMessage("");
+      setPhone("");
+      setButtonclick(false);
+    } catch (error) {
+      alert("Network error. Please try again later.");
+      setButtonclick(false);
+    }
+  };
+  
   return (
     <>
       <div className="container-fluid p-0">
@@ -28,7 +66,7 @@ const Contectus = () => {
                 About
               </a></Link>
               <Link to="/services"><a  className="nav-item nav-link">
-                Services
+              Courses
               </a></Link>
               <Link to="/contectus">
               <a className="nav-item nav-link active">
@@ -88,7 +126,7 @@ const Contectus = () => {
           <div className="row g-5 align-items-center">
             <div className="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
               <h2 className="display-5 mb-4">Our Contact Form</h2>
-              <form>
+              <form onSubmit={handleSubmit}>
                 <div className="row g-3">
                   <div className="col-lg-12 col-xl-6">
                     <div className="form-floating">
@@ -96,7 +134,10 @@ const Contectus = () => {
                         type="text"
                         className="form-control"
                         id="name"
+                        autoComplete="off"
+                        value={name}
                         placeholder="Your Name"
+                        onChange={(e) => setName(e.target.value)}
                       />
                       <label>Your Name</label>
                     </div>
@@ -107,7 +148,10 @@ const Contectus = () => {
                         type="email"
                         className="form-control"
                         id="email"
+                        value={email}
+                        autoComplete="off"
                         placeholder="Your Email"
+                        onChange={(e) => setEmail(e.target.value)}
                       />
                       <label>Your Email</label>
                     </div>
@@ -115,10 +159,13 @@ const Contectus = () => {
                   <div className="col-lg-12 col-xl-6">
                     <div className="form-floating">
                       <input
-                        type="phone"
+                        type="number"
                         className="form-control"
                         id="phone"
+                        value={phone}
+                        autoComplete="off"
                         placeholder="Phone"
+                        onChange={(e) => setPhone(e.target.value)}
                       />
                       <label>Your Phone</label>
                     </div>
@@ -129,12 +176,14 @@ const Contectus = () => {
                         className="form-control"
                         placeholder="Leave a message here"
                         id="message"
+                        value={message}
+                        onChange={(e) => setMessage(e.target.value)}
                       ></textarea>
                       <label>Message</label>
                     </div>
                   </div>
                   <div className="col-12">
-                    <button className="btn btn-primary w-100 py-3">
+                    <button disabled={buttonclick} className="btn btn-primary w-100 py-3" type="submit">
                       Send Message
                     </button>
                   </div>
@@ -228,13 +277,13 @@ const Contectus = () => {
                 <h4 className="mb-4 text-dark">Quick Links</h4>
                 <Link to="/"> <a > Home</a></Link>
                 <Link to="/about"> <a > About Us</a></Link>
-                <Link to="/services"> <a > Services</a></Link>
+                <Link to="/services"> <a > Courses</a></Link>
                 <Link to="/contectus"> <a > Contact Us</a></Link>
               </div>
             </div>
             <div className="col-md-6 col-lg-6 col-xl-3">
               <div className="footer-item d-flex flex-column">
-                <h4 className="mb-4 text-dark">Services</h4>
+                <h4 className="mb-4 text-dark">Courses</h4>
                 <Link to="/frontend"> <a > Frontend Development</a></Link>
                 <Link to="/backend"> <a > Backend Development</a></Link>
                 <Link to="/fullstack"> <a > Full Stack Development</a></Link>
