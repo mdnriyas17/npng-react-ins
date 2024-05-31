@@ -11103,3 +11103,17 @@ fieldset:disabled .btn {
   z-index: 10;
   background: #fff !important;
 }
+
+
+
+@media screen and (max-width: 768px) {
+  .heading{
+    display: none;
+  }
+}
+
+@media screen and (max-width:992px) {
+  .heading{
+    display: none;
+  }
+}

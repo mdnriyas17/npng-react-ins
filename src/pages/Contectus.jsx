@@ -7,6 +7,7 @@ const Contectus = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [service, setService] = useState("");
   const [phone, setPhone] = useState("");
   const [buttonclick, setButtonclick] = useState(false);
   const handleSubmit = async (e) => {
@@ -24,8 +25,8 @@ const Contectus = () => {
       email,
       message,
       phone,
+      service,
     };
-  
     try {
       const response = await axios.post("https://for-zohomailer.onrender.com/contact", data);
       alert("Message sent successfully");
@@ -168,6 +169,18 @@ const Contectus = () => {
                         onChange={(e) => setPhone(e.target.value)}
                       />
                       <label>Your Phone</label>
+                    </div>
+                  </div>
+                  <div className="col-lg-12 col-xl-6">
+                    <div className="form-floating">
+                     <select className="form-select" id="service" value={service} onChange={(e) => setService(e.target.value)}>
+                        <option selected>Select Service</option>
+                        <option value="Web Development">Web Development</option>
+                        <option value="Graphic Design">Graphic Design</option>
+                        <option value="Digital Marketing">Digital Marketing</option>
+                        <option value="Video Editing">Video Editing</option>
+                      </select>
+                      <label>Select Service</label>
                     </div>
                   </div>
                   <div className="col-12">

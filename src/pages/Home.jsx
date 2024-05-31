@@ -24,9 +24,10 @@ const App = () => {
         <nav className="navbar zindex navbar-expand-lg navbar-light bg-transparent px-4 px-lg-5 py-3 py-lg-0 position-fixed top-0">
         <Link to="/">
            <a  className="navbar-brand p-0">
-                <img src={image1} alt="Logo"/>
+                <img src={image1} alt="Logo" />
             </a>
            </Link>
+           <h1 className="heading" style={{color:"black", fontWeight:"bold", fontSize:"30px", marginLeft:"auto"}}>NPNG</h1>
           <button
             className="navbar-toggler"
             type="button"
