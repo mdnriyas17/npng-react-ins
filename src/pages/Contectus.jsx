@@ -50,6 +50,8 @@ const Contectus = () => {
                 <img src={image1} alt="Logo"/>
             </a>
            </Link>
+           <h1 className="heading" style={{color:"black", fontWeight:"bold", fontSize:"30px"}}>NPNG</h1>
+
           <button
             className="navbar-toggler"
             type="button"
@@ -270,6 +272,7 @@ const Contectus = () => {
             <div className="col-12 wow fadeInUp" data-wow-delay="0.1s">
               <div className="rounded h-100">
                 <iframe
+                style={{ border: 0, width: "100%", height: "350px" }}
                   className="rounded w-100"
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242.9777035283552!2d80.20440347479934!3d12.994654299999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52675c03f98cd9%3A0x317064829d81114d!2s2nd%20St%2C%20Ramapuram%2C%20Balakrishnapuram%2C%20Adambakkam%2C%20Chennai%2C%20Tamil%20Nadu%20600088!5e0!3m2!1sen!2sin!4v1710786747211!5m2!1sen!2sin"
                   loading="lazy"

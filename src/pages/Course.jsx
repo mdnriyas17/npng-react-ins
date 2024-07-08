@@ -11,6 +11,8 @@ const course = () => {
                 <img src={image1} alt="Logo"/>
             </a>
            </Link>
+           <h1 className="heading" style={{color:"black", fontWeight:"bold", fontSize:"30px"}}>NPNG</h1>
+
           <button
             className="navbar-toggler"
             type="button"
